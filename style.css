@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(84, 218, 255);
+    color: white;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 1500px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+header h1 {
+    margin: 0; 
+    margin-left: 70px;
+    font-size: 2em; 
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 1.2em;
+    background-color: rgb(108, 174, 255);
+    padding: 5px;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    background-color: rgb(45, 139, 255);
+}
+
+header nav {
+    margin-right: 20px;
+}
+
+.products {
+    margin: 0;
+    margin-left: 90px;
+    font-size: 2em;
+    margin-top: 120px;
+    border-bottom: solid 3px rgb(0, 85, 255);
+    margin-right: 1260px;
+    padding-bottom: 5px;
+}
+
+.services {
+    margin: 0;
+    margin-left: 90px;
+    font-size: 2em;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    border-bottom: solid 3px rgb(0, 85, 255);
+    margin-right: 1275px;
+    padding-bottom: 5px;
+}
+
+.connection {
+    margin: 0;
+    margin-left: 90px;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border-bottom: solid 3px rgb(0, 85, 255);
+    margin-right: 1215px;
+    padding-bottom: 5px;
+}
+
+.toy-box img {
+    width: 250px;
+    height: 250px;
+    margin-left: 15px;
+    border-radius: 15px;
+    border: dashed 2px rgb(0, 94, 255);
+    padding: 10px;
+}
+
+.toy-box {
+    margin-left: 90px;
+    margin-top: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.toy-box h2 {
+    margin-top: 50px;
+    
+}
+
+.toy-box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+.toy-box h3 {
+    margin-top: 5px;
+    background-color: yellow;
+}
+
+.toy-box button {
+    background-color: rgb(90, 255, 95);
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 25px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.toy-box button:hover {
+    background-color: rgb(90, 221, 95)
+}
+
+.price {
+    text-decoration: line-through;
+    text-decoration-color: rgb(255, 33, 33);
+}
+
+.services-box img {
+    width: 250px;
+    height: 250px;
+    margin-left: 195px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.services-box {
+    margin-left: 90px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.services-box h2 {
+    margin-top: 25px;
+}
+
+.services-box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+.services-box h3 {
+    margin-top: 5px;
+    background-color: yellow;
+}
+
+.services-box nav {
+    margin-top: 10px;
+}
+
+.feedback {
+    width: 500px;
+    height: 150px;
+    margin-left: 90px;
+    margin-bottom: 80px;
+}
